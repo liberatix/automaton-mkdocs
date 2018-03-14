@@ -1,0 +1,59 @@
+.progress-label{
+  position:absolute;width:100%;margin:0;color:rgba(0,0,0,1.0);font-size:10px;font-weight:700;line-height:1.0rem;text-align:center;white-space:nowrap}
+.progress-bar{height:1.0rem;float:left;background-color:#2979ff}
+.progress{
+  display:block;position:relative;width:100%;height:1.0rem;margin:.5rem 0;background-color:#ccc}
+.progress.thin{height:.4rem;margin-top:.9rem}
+.progress.thin .progress-label{margin-top:-.4rem}
+.progress.thin .progress-bar{height:.4rem}
+.progress.candystripe .progress-bar{
+  background-image:linear-gradient(135deg,hsla(0,0%,100%,.8) 27%,transparent 0,transparent 52%,hsla(0,0%,100%,.8) 0,hsla(0,0%,100%,.8) 77%,transparent 0,transparent);
+  background-size:2rem 2rem}
+.progress-80plus .progress-bar,.progress-100plus .progress-bar{background-color:#00e676}
+.progress-60plus .progress-bar{background-color:#fbc02d}
+.progress-40plus .progress-bar{background-color:#ff9100}
+.progress-20plus .progress-bar{background-color:#ff5252}
+.progress-0plus .progress-bar{background-color:#ff1744}
+.progress.note .progress-bar{background-color:#2979ff}
+.progress.summary .progress-bar{background-color:#00b0ff}
+.progress.tip .progress-bar{background-color:#00bfa5}
+.progress.success .progress-bar{background-color:#00e676}
+.progress.warning .progress-bar{background-color:#ff9100}.progress.failure .progress-bar{background-color:#ff5252}
+.progress.danger .progress-bar{background-color:#ff1744}.progress.bug .progress-bar{background-color:#f50057}
+.progress.quote .progress-bar{background-color:#9e9e9e}
+.candystripe-animate .progress-bar{-webkit-animation:a 3s linear infinite;animation:a 3s linear infinite}
+.md-typeset .progress-bar p {
+  margin: 0 !important;
+}
+
+/*
+
+.md-nav__link[data-md-state=blur] {
+    color: rgba(255,255,255,.54);
+}
+
+.md-header {
+  background-color: #000;
+}
+
+.md-footer {
+  background-color: #012;
+}
+
+.md-tabs {
+  background-color: #000;
+}
+
+.md-main {
+  background: linear-gradient(#003, #000);
+  background-attachment: fixed;
+}
+
+.md-nav, .md-nav__title, .md-nav__list, .md-nav__item {
+  background-color: transparent;
+}
+
+.md-footer-nav {
+  background-color: transparent;
+}
+*/

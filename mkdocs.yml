@@ -1,0 +1,73 @@
+site_name: AUTOMATON
+
+# Copyright
+copyright: 'Copyright &copy; 2018 The Automaton Developers'
+
+# Repository
+repo_name: automaton.network
+repo_url: https://github.com/automaton-network
+edit_uri: ""
+
+# dev_addr: 0.0.0.0:8000
+
+pages:
+- About: 'index.md'
+
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+  logo: 'img/A.svg'
+  favicon: 'img/favicon.ico'
+  font:
+    text: 'Play'
+#    code: 'VT323'
+#    code: 'PT Mono'
+    code: 'Anonymous Pro'
+  palette:
+    primary: 'indigo'
+    accent: 'red'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/automaton-network'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/'
+#    - type: 'linkedin'
+#      link: 'https://linkedin.com/in/AN'
+
+# CSS
+extra_css:
+    # - css/dark_theme.css
+    # - css/codehilite.css
+    - css/progress.css
+    - css/chat.css
+
+extra_javascript:
+  - 'js/Bubbles.js'
+  - 'js/mermaid.min.js'
+
+markdown_extensions:
+  - inline_graphviz
+  - admonition
+  - footnotes
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
